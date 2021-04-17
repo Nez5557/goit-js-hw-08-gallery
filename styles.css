@@ -130,7 +130,7 @@ body {
   cursor: pointer;
   transition: background-color var(--animation-duration) var(--timing-function);
   outline: none;
-  background-image: url('../images/icon-close.svg');
+  background-image: url('./images/icon-close.svg');
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -139,12 +139,12 @@ body {
 .prev-slide {
   top: 50%;
   left: 8px;
-  background-image: url('../images/left-arrow-svgrepo-com.svg');
+  background-image: url('./images/left-arrow-svgrepo-com.svg');
 }
 
 .next-slide {
   top: 50%;
-  background-image: url('../images/right-arrow-svgrepo-com.svg');
+  background-image: url('./images/right-arrow-svgrepo-com.svg');
 }
 
 .lightbox__button:hover,
